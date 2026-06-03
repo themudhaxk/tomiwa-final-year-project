@@ -1,0 +1,11 @@
+node_modules/
+.next/
+__pycache__/
+*.pyc
+*.pkl
+sapps.db
+model_metrics.json
+.env
+_tmp/
+_tmp_extract/
+*.docx
