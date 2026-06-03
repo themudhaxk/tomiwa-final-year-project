@@ -31,10 +31,7 @@ services:
     startCommand: npx next start -p $PORT
     envVars:
       - key: NEXT_PUBLIC_API_URL
-        fromService:
-          name: sapps-api
-          type: web
-          property: url
+        value: "https://sapps-api.onrender.com"
 
 databases:
   - name: sapps-db
